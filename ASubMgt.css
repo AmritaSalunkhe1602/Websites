@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+}
+.main{
+    /*border: 1px solid;*/ 
+    display: flex;
+}
+
+.container1{
+   /*border: 1px solid;*/ 
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 10px;
+    background-color: rgb(84, 83, 83);
+    padding: 10px;
+}
+.container1>.logo{
+   /*border: 1px solid;*/ 
+    width: 100%;
+    display: flex;
+   
+}
+.container1>.logo>.img1{
+    height: 100px;
+    width: 100px;
+}
+.container1>.logo>.p1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.container1>.one{
+    border-bottom: 5px solid white;
+    margin: 10px 0px;
+}
+.container1>.two{
+    border-bottom: 1px solid white;
+    padding: 15px;
+}
+.container1>.two>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+.container1>.two>a:hover{
+    color: fuchsia;
+}
+.container2{
+   /*border: 1px solid;*/ 
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.container2>.z{
+   /*border: 1px solid;*/ 
+    width: 100%;
+    height: 130px;
+    background-color: rgb(52, 142, 142);
+    text-align: center;
+}
+.container2>.z>.p1{
+    
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.container2>.one{
+   /*border: 1px solid;*/ 
+    width: 100%;
+    height: 200px;
+}
+
+.container2>.one>.a>.a3{
+   /*border: 1px solid;*/ 
+    text-align: right;
+}
+.container2>.one>.a>.a3>#myBtn{
+    border: 1px solid white;
+    background-color:rgb(52, 142, 142) ;
+    padding: 10px 20px;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.container2>.one>.a>.a3>#myBtn:hover{
+    background-color: rgb(231, 228, 228);
+}
+.container2>.two{
+   /*border: 1px solid;*/ 
+    margin-top: 20px;
+}
+.container2>.two>table,tr,th{
+    border: 1px solid ;
+    border-collapse: collapse;
+}
+.container2>.two>table{
+    width: 100%;
+}
+th{
+    height:35px;
+    background-color:rgb(52, 142, 142);
+    color:white;
+    font-size:20px;
+}
+
+#course-modal{
+   display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    padding-top: 100px;
+}
+#modal-content{
+    background: white;
+    margin: 30px auto;
+    width: 30%;
+    box-shadow: 4px 4px 5px rgba(0,0,0,.25);
+    
+}
+.modal-close{
+   font-size: 25px;
+   text-align: right;
+}
+.modal-close:hover{
+    color: red;
+    cursor: pointer;
+}
+.modal-heading{
+    background:rgb(52, 142, 142) ;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 20px;
+}
+#modal-body{
+    margin: 30px 20px;
+}
+.form-group{
+    margin: 20px 10px;
+}
+.form-group>input,select{
+    padding: 5px ;
+    width: 260px; 
+}
+.form-group>.input1{
+    margin-left: 30px;
+}
+.form-group>.input2{
+    margin-left: 26px;
+}
+.form-group>.input3{
+    margin-left: 34px;
+    width: 275px; 
+}
+.form-group>.input4{
+    margin-left: 22px;
+}
+.form-group>.input5{
+    margin-left: 14px;
+}
+.form-group>.input6{
+    margin-left: 14px;
+}
+.form-group>.input7{
+    margin-left: 14px;
+}
+form>.line{
+    border-top: 3px solid gray;
+}
+.button{
+    text-align: right;
+}
+.button>button{
+    padding: 10px 30px;
+    background-color: rgb(52, 142, 142);
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 15px;
+   
+}
+.button>button:hover{
+    border: 1px solid gray;
+}
+

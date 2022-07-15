@@ -1,0 +1,406 @@
+body{
+    margin: 0;
+}
+.main{
+   
+    background-color: rgb(243, 239, 239);
+}
+.container1{
+    
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../CollegeManagementSystem/Images/DCU.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.container1>.one{
+    border-bottom: 4px solid gray;
+    padding-bottom: 30px;
+    display: flex;
+}
+.container1>.one>.logo{
+   
+    width: 50%;
+    display: flex;
+   
+}
+.container1>.one>.logo>.img1{
+    height: 100px;
+    width: 100px;
+}
+.container1>.one>.logo>.p1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.container1>.one>.menu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.container1>.one>.menu>.a{
+    display: flex;
+    width: 20%;
+}
+.container1>.one>.menu>.a>a{
+    text-decoration: none;
+    color: white; 
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container1>.one>.menu>.a>a:hover{
+    border-bottom:3px solid red;
+   
+}
+.container1>.two{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container1>.two>.h1{
+   font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}
+.container1>.two>.p2{
+    letter-spacing: 5px;
+    font-family:'Poppins', sans-serif;
+    font-size: 40px;
+    color:white;
+    
+}
+.container1>.two>.visit{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 12px 30px;
+}
+.container1>.two>.visit:hover{
+    transition: 1s;
+    background-color: red;
+}
+.container1>.two>.visit>.visitbtn{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+.container2{
+   
+    display: flex;
+    margin:20px 50px ;
+    padding: 20px;
+    background-color: rgb(234, 229, 229);
+}
+.container2>.one{
+    border:5px solid rgb(179, 175, 175);
+    width: 12%;
+}
+.container2>.one>img{
+    height: 200px;
+    width: 100%;
+}
+.container2>.two{
+  
+    width: 88%;
+    padding-left: 20px;
+}
+.container3{
+   
+    display: flex;
+    margin: 20px 50px;
+}
+.containera{
+   
+    width: 75%;
+}
+.containera1{
+    border-bottom: 3px solid rgb(155, 154, 154);
+    margin-bottom: 20px;
+}
+.containera1>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.containera2{
+   
+    display: flex; 
+    margin-bottom: 20px;
+}
+.containera2>.a{
+    
+    width: 33%;
+}
+.containera2>.aa{
+    margin-right: 10px;
+}
+.containera2>.a>img{
+    height: 200px;
+    width: 100%;
+}
+.containera2>.a>a{
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.containera3{
+    
+    display: flex; 
+    margin-bottom: 20px;
+}
+.containera3>.a{
+    
+    width: 33%;
+}
+.containera3>.aa{
+    margin-right: 10px;
+}
+.containera3>.a>img{
+    height: 200px;
+    width: 100%;
+}
+.containera3>.a>a{
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.containera4{
+   
+    display: flex;
+}
+.containera4>.a{
+   
+    width: 50%;
+}
+.containera4>.z{
+    margin-right: 30px;
+}
+.containera4>.a>.A{
+    border-bottom: 3px solid rgb(155, 154, 154);
+    margin-bottom: 20px;
+}
+.containera4>.a>.A>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.containera4>.a>.B{
+   
+    margin-bottom: 10px;
+}
+.containera4>.a>.B>video{
+   height: 300px;
+   width: 100%;
+}
+
+.containera4>.a>.C>.a{
+    height: 100px ;
+    width: 95px;
+}
+.containera4>.b{
+
+    width: 50%;
+}
+.containera4>.b>.A{
+    border-bottom: 3px solid rgb(155, 154, 154);
+    margin-bottom: 20px;
+}
+.containera4>.b>.A>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.containera4>.b>.B{
+   
+    display: flex;
+}
+.containera4>.b>.B>.one{
+   
+   width: 50%;
+}
+.containera4>.b>.B>.one>a>.p{
+   
+   height: 87px;
+   margin-bottom: 17px;
+   text-align: center;
+   padding-top: 2px;
+}
+.containera4>.b>.B>.one>a>.p>img{
+    height: 60px;
+    width: 100px;
+    float: left;
+}
+.containera4>.b>.B>.one>a>.p1{
+    background-color: orange;
+}
+.containera4>.b>.B>.one>a>.p2{
+    background-color: blue;
+}
+.containera4>.b>.B>.one>a>.p3{
+    background-color: red;
+}
+.containera4>.b>.B>.one>a>.p4{
+    background-color:slateblue;
+}
+.containera4>.b>.B>.one>a>.q1{
+    background-color:darkblue;
+}
+.containera4>.b>.B>.one>a>.q2{
+    background-color:orangered;
+}
+.containera4>.b>.B>.one>a>.q3{
+    background-color:green;
+}
+.containera4>.b>.B>.one>a>.q4{
+    background-color:blueviolet;
+}
+.containera4>.b>.B>.one>a>.p{
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.containera4>.b>.B>.z{
+    margin-right: 10px;
+}
+.containera5{
+    border-bottom: 3px solid rgb(155, 154, 154);
+    margin-bottom: 20px;
+}
+.containera5>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.containera6{
+    
+    display: flex; 
+    margin-bottom: 20px;
+}
+.containera6>.a{
+ 
+    width: 33%;
+}
+.containera6>.aa{
+    margin-right: 10px;
+}
+.containera6>.a>img{
+    height: 200px;
+    width: 100%;
+}
+.containera6>.a>a{
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.containerb{
+   
+    width: 25%;
+    padding: 10px 5px;
+}
+.containerb>.one{
+   
+   text-align: center;
+   margin: 20px 0px;
+    background-color: rgb(215, 211, 211);
+}
+.containerb>.one>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.containerb>.two{
+    border: 1px solid;
+}
+.containerb>.three{
+   
+    margin: 20px 0px;
+}
+.containerb>.three>img{
+    height: 300px;
+    width: 100%;
+}
+.containerb>.four{
+   
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.container4{
+    border-top: 50px solid blue;
+}
+.container5{
+   
+    margin: 10px 50px;
+    display: flex;
+}
+.container5>.one{
+   
+    width: 25%;
+    padding: 10px;
+}
+.container5>.a{
+    margin-right: 20px;
+}
+.container5>.one>.logo{
+    
+    display: flex;
+   
+}
+.container5>.one>.logo>.img1{
+    height: 50px;
+    width: 50px;
+}
+.container5>.one>.logo>.p1{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.container5>.one>.a1{
+    border-bottom: 3px solid gray;
+    margin-bottom: 20px;
+}
+.container5>.one>.a1>p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.container5>.one>p>img{
+    height: 20px;
+    width: 20px;
+}
+.container5>.one>.q{
+   display: flex;
+}
+.container5>.one>.qq{
+    margin-top: 10px;
+}
+.container5>.one>.q>img{
+    width: 25%;
+    height: 100px;
+    margin-right: 5px;
+}
+.container6{
+   
+    background-color: rgb(88, 86, 86);
+    display: flex;
+}
+
+.container6>a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 300px;
+}
+
+.container6>.p3{
+    color: white;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+
+    

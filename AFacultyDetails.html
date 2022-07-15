@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Details page On Admin Panel</title>
+    <link rel="stylesheet" href="../CollegeManagementSystem/AFacultyDetails.css">
+    
+</head>
+<body>
+    <div class="main" >
+        <div class="container1">
+            <div class="logo">
+                <img class="img1" src="../CollegeManagementSystem/Images/delogo.png" alt="img">
+                <p class="p1">Administrator</p>
+            </div>
+            <div class="one"></div>
+            <div class="two"><a href="../CollegeManagementSystem/AdminDashboard.php">Home</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/ACourse.php">Courses</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AStudent.php">Students</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/ASubMgt.php">Subjects</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AFaculty.php">Faculties</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/ATimetable.php">Time Table</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/ASyllabus.php">Syllabus</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AAssignSubject.php">Assign Subjects</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AEnterMarks.php">Enter Marks</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AMarkSheetReport.php">Marksheet Report</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AAttendanceReport.php">Attendance Report</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/ASearch.php">Search </a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AdminProfile.php">Profile</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AdminLogin.html">LogOut</a></div>
+        </div>
+        <div class="container2">
+            <div class="one">
+                <p class="p2">Faculty Name</p>
+                <p class="p1"> Faculty Details</p>
+                <div class="a">
+                    <a href="../CollegeManagementSystem/AFaculty.html">> Back</a>
+                    <button  type="submit"  id="mybtn" >Assign Subject</button>
+                   <button  type="submit"  id="MyBtn"  >Edit Details</button>  
+               </div>
+           </div>
+
+
+           
+           
+           <div id="subject-model" class="model">
+            <div id="model-content">
+                <div id="model-header">
+                    <p class="model-close" >&times;</p>
+                    <p class="model-heading">Assign Subject</p>
+                </div>
+             <div id="model-body">
+                 <form action="">
+                     <table>
+                         <tr>
+                             <td rowspan="4"></td>
+                             <td>Faculty Id</td>
+                             <td></td>
+                         </tr>
+                         <tr>
+                            <td>Faculty Name</td>
+                            <td></td>
+                         </tr>
+                         <tr>
+                            <td>Qualification</td>
+                            <td></td>
+                         </tr>
+                         <tr>
+                            <td>Experience</td>
+                            <td></td>
+                         </tr>
+                     </table>
+                     <div class="line"></div>
+                    <div class="form-group ">
+                        
+                            <label for="course">Course Name</label>
+                            <select id="input11" name="course" id="course">
+                                <option value="select sem/year">--- Select Course ---</option>
+                                <option value="ba">BA</option>
+                                <option value="bcom">BCom</option>
+                                <option value="bsc">BSc</option>
+                                <option value="msc">MSc</option>
+                                <option value="ma">MA</option>
+                                <option value="mcom">MCom</option>
+                            </select>
+                            
+                    </div>
+                    <div class="form-group">
+                       
+                            <label for="semester">Semester/Year</label>
+                            <select id="input12" name="semester" id="semester">
+                                <option value="select sem/year">--- Select Semesterr ---</option>
+                                <option value="semester1">Semester1</option>
+                                <option value="semester2">Semester2</option>
+                                <option value="semester3">Semester3</option>
+                                <option value="semester4">Semester4</option>
+                                <option value="semester5">Semester5</option>
+                                <option value="semester6">Semester6</option>
+                                <option value="semester7">Semester7</option>
+                                <option value="semester8">Semester8</option>
+                            </select>
+                                     
+                    </div>
+                    <div class="form-group">
+                       
+                           <label for="subject">Subject</label>
+                           <select id="input13" name="subject" id="subject">
+                            <option value="select subject">--- Select Subject ---</option>
+                            <option value="physics">Physics</option>
+                            <option value="elec">Electronics</option>
+                            <option value="maths">Maths</option>
+                            <option value="computer">Compuetr Science</option>
+                            
+                        </select>
+                       
+                       
+                    </div>
+                    <div class="form-group">
+                       
+                            <label for="position">Position</label>
+                            <select id="input14" name="position" id="position">
+                                <option value="select position">--- Select Position ---</option>
+                                <option value="ba">Professor</option>
+                                <option value="bcom">Assistant Professor</option>
+                                <option value="bsc">Lecturer</option>
+                                
+                            </select>
+                             
+                    </div> 
+                    
+                    <div class="line"></div>
+                    <div class="form-group ">
+                        <button class="button button2" type="submit" >Assign Subject</button>
+                    </div>
+                 </form>
+                 </div>
+                    
+                   
+             </div>
+            </div>
+        
+        
+        
+        
+            <div id="course-modal" class="modal">
+                <div id="modal-content">
+                    <div id="modal-header">
+                        <p class="modal-close" >&times;</p>
+                        <p class="modal-heading">Edit Faculty Details</p>
+                    </div>
+                 <div id="modal-body">
+                     <form action="">
+                        <div class="form-group ">
+                            <div class="one">
+                                <label for="fid">Faculty Id</label><br>
+                                <input class="input1" type="number" id="fid" name="fid">
+                            </div>
+    
+                            <div class="one">
+                                <label for="fname">Faculty Name</label><br>
+                                <input class="input2" type="text" name="fname" id="fname" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                           
+                            <div class="one">
+                                <label for="state">State</label><br>
+                                <input class="input3" type="text" id="state" name="state">
+                            </div>
+    
+                            <div class="one">
+                                <label for="city">City</label><br>
+                                <input class="input4" type="text" name="city" id="city" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                           <div class="one">
+                               <label for="email">Email Id</label><br>
+                            <input class="input5" type="email" name="email" id="email" placeholder="Email ID">
+                           </div>
+                           <div class="one">
+                            <label for="contact">Contact Number</label><br>
+                            <input class="input6" type="number" id="number" name="number" placeholder="Contact Number">
+                           </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="one">
+                                <label for="qualification">Qualification</label><br>
+                                <input class="input7" type="text" id="qualification" name="qualification">
+                            </div>
+    
+                            <div class="one">
+                                <label for="experience">Experience</label><br>
+                                <input class="input8" type="number" name="experience" id="experience" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="one">
+                                <label for="dob">Date of Birth :</label><br>
+                                <input class="input9" type="date" id="dob" name="dob">
+                            </div>
+                            <div class="one">
+                                <label for="gender">Gender</label><br>
+                                <select class="input10" name="gender" id="gender">
+                                    <option value="select gender">--- Select Gender ---</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="line"></div>
+                        <div class="form-group ">
+                            <label for="photo">Photo :</label><br>
+                            <input type="file" name="photo" id="photo">
+                            <button class="button" type="submit" >Edit Faculty</button>
+                        </div>
+                     </form>
+                 </div>
+                </div>
+            </div> 
+    
+               <div class="two">
+                       <table class="table1">
+                           <tr class="tr">
+                               <td class="td1" rowspan="6"></td>
+                               <td class="td2">Faculty Id</td>
+                               <td class="td3"></td>
+                           </tr>
+                           <tr>
+                               
+                               <td class="td2">Faculty Name</td>
+                               <td class="td3"></td>
+                           </tr>
+                           <tr>
+                              
+                               <td class="td2">Address</td>
+                               <td class="td3"></td>
+                           </tr>
+                           <tr>
+                               
+                               <td class="td2">Email Id</td>
+                               <td class="td3"></td>
+                           </tr>
+                           <tr>
+                               
+                               <td class="td2">Date Of Birth</td>
+                               <td class="td3"></td>
+                           </tr>
+                           <tr>
+                              
+                               <td class="td2">Contact No</td>
+                               <td class="td3"></td>
+                           </tr>
+                       </table>
+    
+                       <table class="table2">
+                           <tr>
+                               <td>Qualification</td>
+                               <td></td>
+                               <td>Experience</td>
+                               <td></td>
+                           </tr>
+                           <tr>
+                            <td>Course</td>
+                            <td></td>
+                            <td>Semester</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Subject</td>
+                            <td></td>
+                            <td>Position</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Joined Date</td>
+                            <td></td>
+                            <td>Password</td>
+                            <td></td>
+                        </tr>
+                       </table>
+               </div>
+                   
+    
+               
+    
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div> 
+
+
+       
+           
+        </div>
+   
+
+    <script >
+
+        var model=document.getElementById('subject-model');
+        var openModel=document.getElementById('mybtn');
+        var  closeModel=document.querySelector('.model-close');
+
+       openModel.onclick= function(){
+                           model.style.display='block';
+                        }
+        closeModel.onclick=function(){
+                           model.style.display='none';
+                        }
+        window.onclick=function(e){
+                           if(e.target==model){
+                                        model.style.display='none';
+                                     }
+                                   }
+
+        var modal=document.getElementById('course-modal');
+        var openModal=document.getElementById('MyBtn');
+        var  closeModal=document.querySelector('.modal-close');
+
+       openModal.onclick= function(){
+                           modal.style.display='block';
+                        }
+        closeModal.onclick=function(){
+                           modal.style.display='none';
+                        }
+        window.onclick=function(e){
+                           if(e.target==modal){
+                                        modal.style.display='none';
+                                     }
+                                   }
+    </script>
+
+</body>   
+</html>

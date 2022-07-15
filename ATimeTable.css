@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+}
+.main{
+   /*border: 1px solid;*/ 
+    display: flex;
+}
+
+.container1{
+   /*border: 1px solid;*/ 
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 10px;
+    background-color: rgb(84, 83, 83);
+    padding: 10px;
+}
+.container1>.logo{
+    /*border: 1px solid;*/ 
+    width: 100%;
+    display: flex;
+   
+}
+.container1>.logo>.img1{
+    height: 100px;
+    width: 100px;
+}
+.container1>.logo>.p1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.container1>.one{
+    border-bottom: 5px solid white;
+    margin: 10px 0px;
+}
+.container1>.two{
+    border-bottom: 1px solid white;
+    padding: 15px;
+}
+.container1>.two>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+.container1>.two>a:hover{
+    color: fuchsia;
+}
+.container2{
+   /*border: 1px solid;*/ 
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.container2>.z{
+   /*border: 1px solid;*/ 
+    width: 100%;
+    height: 150px;
+    background-color: rgb(52, 142, 142);
+    
+}
+.p1{
+    
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#course-modal{
+    display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0,0,0,.5);
+     padding-top: 100px;
+ }
+ #modal-content{
+     background: white;
+     margin: 30px auto;
+     width: 30%;
+     box-shadow: 4px 4px 5px rgba(0,0,0,.25);
+     
+ }
+ .modal-close{
+    font-size: 25px;
+    text-align: right;
+ }
+ .modal-close:hover{
+     color: red;
+     cursor: pointer;
+ }
+ .modal-heading{
+     background:rgb(52, 142, 142) ;
+     color: white;
+     text-align: center;
+     padding: 15px 0px;
+     font-size: 20px;
+ }
+ #modal-body{
+     margin: 30px 20px;
+ }
+ .form-group{
+     margin: 20px 10px;
+ }
+ .form-group>.input1{
+     padding: 5px ;
+     width: 200px; 
+ }
+ .input{
+     margin-left: 145px;
+ }
+ 
+ form>.line{
+     border-top: 3px solid gray;
+ }
+ .button{
+     text-align: right;
+ }
+ .button>button{
+     padding: 10px 30px;
+     background-color: rgb(52, 142, 142);
+     color: white;
+     border: 1px solid white;
+     margin-bottom: 15px;
+    
+ }
+ .button>button:hover{
+     border: 1px solid gray;
+ }
+
+.container2>.two{
+   /*border: 1px solid;*/ 
+    margin-top: 20px;
+}
+table,tr,th{
+    border: 1px solid ;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{
+    height:35px;
+    background-color:rgb(52, 142, 142);
+    color:white;
+    font-size:20px;
+}
+#MyBtn1{
+    border: 1px solid white;
+    background-color:rgb(52, 142, 142) ;
+    padding: 10px ;
+    margin-left: 1000px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+#subjectwise>.one{
+    margin-bottom: 20px;
+}

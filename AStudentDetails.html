@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details page On Admin Panel of College Management System</title>
+    <link rel="stylesheet" href="../CollegeManagementSystem/AStudentDetails.css">
+    <script>
+        function btnClicked(){
+            document.location.href="../CollegeManagementSystem/AMarkSheet.html";
+        }
+    </script>
+</head>
+<body>
+    <div class="main" >
+        <div class="container1">
+            <div class="logo">
+                <img class="img1" src="../CollegeManagementSystem/Images/delogo.png" alt="img">
+                <p class="p1">Administrator</p>
+            </div>
+            <div class="one"></div>
+            <div class="two"><a href="../CollegeManagementSystem/AdminDashboard.php">Home</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/ACourse.php">Courses</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AStudent.php">Students</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/ASubMgt.php">Subjects</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AFaculty.php">Faculties</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/ATimetable.php">Time Table</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/ASyllabus.php">Syllabus</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AAssignSubject.php">Assign Subjects</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AEnterMarks.php">Enter Marks</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AMarkSheetReport.php">Marksheet Report</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AAttendanceReport.php">Attendance Report</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/ASearch.php">Search </a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AdminProfile.php">Profile</a></div>
+            <div class="two"><a href="../CollegeManagementSystem/AdminLogin.html">LogOut</a></div>
+        </div>
+        <div class="container2">
+            <div class="one">
+                <p class="p2">Student Name</p>
+                <p class="p1"> Student Details</p>
+                <div class="a">
+                    <a href="../CollegeManagementSystem/AStudent.html">> Back</a>
+                    <button  type="submit" onclick="btnClicked()"   class=" myBtn marksheet">Marksheet</button>
+                   <button  type="submit"  id="MyBtn"  class="myBtn editdetails">Edit Details</button>  
+               </div>
+           </div>
+           
+           <div id="course-modal" class="modal">
+            <div id="modal-content">
+                <div id="modal-header">
+                    <p class="modal-close" >&times;</p>
+                    <p class="modal-heading">Edit Student Details</p>
+                </div>
+             <div id="modal-body">
+                 <form action="">
+                     <div class="form-group">
+                        <select class="input1" name="course" id="course">
+                            <option value="select">--- Select Course ---</option>
+                           <option value="ba">BA</option>
+                           <option value="bcom">BCom</option>
+                           <option value="bsc">BSc</option>
+                           <option value="msc">MSc</option>
+                           <option value="ma">MA</option>
+                           <option value="mcom">MCom</option>
+                        </select>
+                        <select class="input2" name="semester" id="semester">
+                            <option value="select semester">--- Select Semester ---</option>
+                            <option value="semester1">Semester1</option>
+                            <option value="Semester2">Semester2</option>
+                            <option value="Semester3">Semester3</option>
+                            <option value="Semester4">Semester4</option>
+                            <option value="Semester5">Semester5</option>
+                            <option value="Semester6">Semester6</option>
+                            <option value="Semester7">Semester7</option>
+                            <option value="Semester8">Semester8</option>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <label for="coursename">Roll Number :</label>
+                        <input class="input3" type="number" id="rollno" name="rollno">
+                        <select class="input4" name="optionalsub" id="optionalsub">
+                            <option value="select optionalsub">--- Select Optional Subject ---</option>
+                            <option value="English">English</option>
+                            <option value="Environment">Environment</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                       <input class="input5" type="text" name="fname" id="fname" placeholder="First Name">
+                       <input class="input6" type="text" name="lname" id="lname" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <input class="input7" type="email" name="email" id="email" placeholder="Email ID">
+                        <input class="input8" type="number" id="number" name="number" placeholder="Contact Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth :</label>
+                        <input class="input9" type="date" id="dob" name="dob">
+                        <select class="input10" name="gender" id="gender">
+                            <option value="select gender">--- Select Gender ---</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input class="input11" type="text" name="state" id="state" placeholder="State">
+                        <input class="input12" type="text" name="city" id="city" placeholder="City">
+                     </div>
+                     <div class="form-group">
+                        <input class="input13" type="text" name="fathername" id="fathername" placeholder="Father Name">
+                        <input class="input14" type="text" name="foccupation" id="foccupation" placeholder="Father Occupation">
+                     </div>
+                     <div class="form-group">
+                        <input class="input15" type="text" name="mothername" id="mothername" placeholder="Mother Name">
+                        <input class="input16" type="text" name="moccupation" id="moccupation" placeholder="Mother Occupation">
+                     </div>
+                    <div class="line"></div>
+                    <div class="form-group ">
+                        <label for="photo">Photo :</label>
+                        <input type="file" name="photo" id="photo">
+                        <button class="button" type="submit" >Edit Student</button>
+                    </div>
+                 </form>
+             </div>
+            </div>
+        </div> 
+
+           <div class="two">
+                   <table class="table1">
+                       <tr class="tr">
+                           <td class="td1" rowspan="6"></td>
+                           <td class="td2">Roll No</td>
+                           <td class="td3"></td>
+                       </tr>
+                       <tr>
+                           
+                           <td class="td2">Student Name</td>
+                           <td class="td3"></td>
+                       </tr>
+                       <tr>
+                          
+                           <td class="td2">Address</td>
+                           <td class="td3"></td>
+                       </tr>
+                       <tr>
+                           
+                           <td class="td2">Email Id</td>
+                           <td class="td3"></td>
+                       </tr>
+                       <tr>
+                           
+                           <td class="td2">date Of Birth</td>
+                           <td class="td3"></td>
+                       </tr>
+                       <tr>
+                          
+                           <td class="td2">Contact No</td>
+                           <td class="td3"></td>
+                       </tr>
+                   </table>
+
+                   <table class="table2">
+                       <tr>
+                           <td>Course</td>
+                           <td></td>
+                           <td>Semester/Year</td>
+                           <td></td>
+                       </tr>
+                       <tr>
+                        <td>Father's Name</td>
+                        <td></td>
+                        <td>Father's Occupation</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Mother's Name</td>
+                        <td></td>
+                        <td>Mother's Ocuupation</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Admission Date</td>
+                        <td></td>
+                        <td>Password</td>
+                        <td></td>
+                    </tr>
+                   </table>
+           </div>
+               
+        
+           
+        </div>
+    </div>
+
+    <script >
+        var modal=document.getElementById('course-modal');
+        var openModal=document.getElementById('MyBtn');
+        var  closeModal=document.querySelector('.modal-close');
+
+       openModal.onclick= function(){
+                           modal.style.display='block';
+                        }
+        closeModal.onclick=function(){
+                           modal.style.display='none';
+                        }
+        window.onclick=function(e){
+                           if(e.target==modal){
+                                        modal.style.display='none';
+                                     }
+                                   }
+    </script>
+
+</body>   
+</html>
